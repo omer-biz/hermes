@@ -1,4 +1,5 @@
 import { Drawer } from "expo-router/drawer";
+import "../style.css";
 
 export default function RootLayout() {
     return (
