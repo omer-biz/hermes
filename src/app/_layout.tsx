@@ -1,5 +1,15 @@
-import { Stack } from "expo-router";
+import { Drawer } from "expo-router/drawer";
 
 export default function RootLayout() {
-  return <Stack />;
+    return (
+        <Drawer>
+            <Drawer.Screen
+                name="index"
+                options={{
+                    drawerLabel: "Home",
+                    title: "Hermes"
+                }}
+            />
+        </Drawer>
+    );
 }
