@@ -2,6 +2,7 @@ import { Drawer } from "expo-router/drawer";
 import { useColorScheme } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { View, Text, Pressable } from "react-native";
+import "../style.css";
 
 export default function RootLayout() {
     const scheme = useColorScheme();
