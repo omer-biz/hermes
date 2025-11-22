@@ -1,6 +1,6 @@
 import { View, Text, Image, Pressable } from "react-native";
 
-interface SourceListItemProps {
+interface SequenceListItemProps {
     logo?: any;
     name: string;
     description?: string;
@@ -9,14 +9,14 @@ interface SourceListItemProps {
     onPress?: () => void;
 }
 
-export default function SourceListItem({
+export default function SequenceListItem({
     logo,
     name,
     description,
     successCount,
     failedCount,
     onPress,
-}: SourceListItemProps) {
+}: SequenceListItemProps) {
     return (
         <Pressable
             onPress={onPress}
