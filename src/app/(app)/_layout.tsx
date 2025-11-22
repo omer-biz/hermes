@@ -40,7 +40,6 @@ function CustomDrawerContent() {
         target: string;
     }) => {
         const isActive = pathname === target;
-        console.log(pathname);
 
         return (
             <TouchableOpacity

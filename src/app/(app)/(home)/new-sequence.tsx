@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { View, ScrollView, TextInput, Text, Pressable, Alert } from "react-native";
-import { useRouter } from "expo-router";
+import { router } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function NewSequencePage() {
-    const router = useRouter();
 
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
