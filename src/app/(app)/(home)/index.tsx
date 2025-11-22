@@ -1,5 +1,5 @@
 import { ScrollView, View, Pressable } from "react-native";
-import SequenceListItem from "../components/sequence-list-item";
+import SequenceListItem from "@/src/components/sequence-list-item";
 import { Plus } from "lucide-react-native";
 import { useRouter } from "expo-router";
 
@@ -13,7 +13,7 @@ export default function Index() {
                 contentContainerStyle={{ padding: 16, gap: 12 }}
             >
                 <SequenceListItem
-                    logo={require("../../assets/images/cbe-logo.png")}
+                    logo={require("@/assets/images/cbe-logo.png")}
                     name="CBE"
                     successCount={8}
                     failedCount={9}
@@ -21,7 +21,7 @@ export default function Index() {
                 />
 
                 <SequenceListItem
-                    logo={require("../../assets/images/icon.png")}
+                    logo={require("@/assets/images/icon.png")}
                     name="Telebirr"
                     successCount={8}
                     failedCount={9}
