@@ -36,6 +36,13 @@ export default function HomeLayout() {
                     headerLeft: () => <BackToPrevious />
                 }}
             />
+            <Stack.Screen
+                name="lua-editor"
+                options={{
+                    title: 'Lua Editor',
+                    headerLeft: () => <BackToPrevious />
+                }}
+            />
         </Stack>
     );
 }
